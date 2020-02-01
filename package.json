@@ -1,0 +1,27 @@
+{
+  "name": "poll-request",
+  "version": "0.0.1",
+  "description": "Wrapper for request which allows you to poll an endpoint at regular or increasing intervals, or until some condition is satisfied. Useful if for example, you submitted and image for processing to an external API and then needed to wait an unspecified amount of time for a result to be returned. ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "poll",
+    "http",
+    "request",
+    "interval"
+  ],
+  "author": "David Pettifer",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.8"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
